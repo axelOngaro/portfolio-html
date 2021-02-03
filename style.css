@@ -3,6 +3,23 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 70px;
+}
+
+h3 {
+  font-weight: 700;
+  margin-bottom: 100px;
+  font-size: 36px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .overview {
@@ -12,31 +29,21 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: "Montserrat", sans-serif;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.aboutme_section {
-  width: 1200px;
+.section {
+  margin-bottom: 400px;
 }
 
-.aboutme_section h2 {
-  font-weight: 700;
-  font-size: 70px;
-}
-
-.aboutme_section h3 {
-  font-weight: 700;
-  margin-bottom: 100px;
-  font-size: 36px;
-}
-
-.aboutme_section p {
-  font-weight: 400;
-  font-size: 20px;
-}
-
-.aboutme_section .row1 {
+.row1 {
   height: 600px;
   width: 1200px;
   display: -webkit-box;
@@ -54,17 +61,16 @@
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
-  background-color: #929b85;
 }
 
-.aboutme_section .row2 {
+.row2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.aboutme_section .row2 .col1,
-.aboutme_section .row2 .col2 {
+.row2 .col1,
+.row2 .col2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,8 +88,92 @@
           align-items: center;
 }
 
-.aboutme_section .row2 .col2 {
+.row3 {
+  height: 600px;
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.whereimfrom {
+  background-color: #929b85;
+}
+
+.mypassions {
+  background-color: #ffffff;
+}
+
+.whythisjob {
   background-color: #628271;
   color: white;
+}
+
+.devstack {
+  background-color: #b4a7b2;
+}
+
+.frontend {
+  background-color: #898595;
+}
+
+.backend {
+  background-color: #000000;
+  color: white;
+}
+
+.otherskills {
+  background-color: #dbcdd1;
+}
+
+.uiux {
+  background-color: #002395;
+  color: white;
+}
+
+.tools {
+  background-color: white;
+}
+
+.philosophy {
+  background-color: #ed2939;
+  color: white;
+}
+
+.portfolio-website {
+  background-color: #acae89;
+  color: white;
+}
+
+.wip {
+  background-color: #f8f8db;
+}
+
+.tocome {
+  background: white;
+}
+
+.whyablog {
+  background-color: #fd536b;
+  color: white;
+}
+
+.latest {
+  background-color: #7fd1ae;
+}
+
+.bruh {
+  background-color: #f7d1d2;
 }
 /*# sourceMappingURL=style.css.map */
